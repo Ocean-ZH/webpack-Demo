@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <script type="module">
+        import imgSrc from './images/AllianceLogo.png';
+        console.log(imgSrc);
+    </script>
+</head>
+
+<body>
+    <script>
+        var status = 1;
+        switch (status) {
+            case 0:
+                status = '正常';
+                status = '<span class="btn-sm btn-green ">' + '正常' + '</span>';
+                break;
+            case 1:
+                status = '异常';
+                status = '<span class="btn-sm btn-orange ">' + '异常' + '</span>';
+                break;
+            default:
+                console.log(status);
+                status = '<span class="btn-sm btn-plain ">' + '未知' + '</span>';
+                break;
+        }
+        console.log(status)
+        //狗屎，switch里面，用来做判断的条件变量不能在后面在改变
+
+        var npc = 1;
+        switch (npc) {
+            case 0:
+                console.log(0)
+                npc = 'a';
+                break;
+            case 1:
+                console.log(1)
+                npc = 'b';
+                break;
+            default:
+                console.log('d')
+                npc = 'c';
+                break;
+        }
+        console.log(npc)
+    </script>
+</body>
+
+</html>

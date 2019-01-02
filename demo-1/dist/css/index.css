@@ -1,0 +1,21 @@
+body {
+  background-color: #ddd;
+  background: url(../images/953f4b3b21b206cfeae4b13ad9257260.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+#root {
+  color: #c0811d;
+  font-size: 20px;
+}
+
+.less-mark {
+  color: #2196f3;
+}
+
+.less-mark ul li {
+  padding: 5px;
+  color: #eee;
+  border-bottom: 1px solid #ccc;
+}
+/*# sourceMappingURL=index.css.map*/

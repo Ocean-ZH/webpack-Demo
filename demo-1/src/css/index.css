@@ -1,0 +1,12 @@
+body{
+    background-color: #ddd;
+    background: url(../images/soviet.jpg) no-repeat top center;
+    background-size: cover;
+}
+#root{
+    color:#c0811d;
+    font-size:20px;
+}
+.abc{
+    margin: 10px;
+}
